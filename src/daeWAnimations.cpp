@@ -19,7 +19,7 @@
 #include <dom/domConstants.h>
 #include <dom/domLibrary_cameras.h>
 #include <dom/domLibrary_lights.h>
-#include <dae/domAny.h>
+#include <dom/domAny.h>
 //#include <dom/domVisual_scene.h>
 //#include <dom/domLibrary_visual_scenes.h>
 

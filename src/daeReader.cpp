@@ -13,7 +13,7 @@
 
 #include "daeReader.h"
 #include <dae.h>
-#include <dae/domAny.h>
+#include <dom/domAny.h>
 #include <dom/domCOLLADA.h>
 #include <dom/domInstanceWithExtra.h>
 #include <dom/domConstants.h>
@@ -295,7 +295,7 @@ bool daeReader::convert( std::istream& fin )
     std::vector<char> buffer(length);
     fin.read(&buffer[0], length);
 
-    _document = _dae->openFromMemory(fileURI, &buffer[0]);
+    _document = _dae->openFromMemory141(fileURI, &buffer[0]);
 
     return processDocument (fileURI);
 }
@@ -304,7 +304,7 @@ bool daeReader::convert( const std::string &fileURI )
 {
     clearCaches();
 
-    _document = _dae->open(fileURI);
+    _document = _dae->open141(fileURI);
 
     return processDocument (fileURI);
 }

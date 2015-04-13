@@ -50,23 +50,24 @@
 #include <dae/daeDocument.h>
 #include <dom/domChannel.h>
 
-
-class domCOLLADA;
-class domGeometry;
-class domInstance_geometry;
-class domLibrary_cameras;
-class domLibrary_effects;
-class domLibrary_geometries;
-class domLibrary_lights;
-class domLibrary_materials;
-class domLibrary_visual_scenes;
-class domLibrary_animations;
-class domMaterial;
-class domMesh;
-class domNode;
-class domSource;
-class domVisual_scene;
-class domP;
+namespace ColladaDOM141 {
+    class domCOLLADA;
+    class domGeometry;
+    class domInstance_geometry;
+    class domLibrary_cameras;
+    class domLibrary_effects;
+    class domLibrary_geometries;
+    class domLibrary_lights;
+    class domLibrary_materials;
+    class domLibrary_visual_scenes;
+    class domLibrary_animations;
+    class domMaterial;
+    class domMesh;
+    class domNode;
+    class domSource;
+    class domVisual_scene;
+    class domP;
+}
 
 namespace osgDAE {
 

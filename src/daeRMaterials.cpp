@@ -16,7 +16,7 @@
 
 #include <dae.h>
 #include <dae/daeSIDResolver.h>
-#include <dae/domAny.h>
+#include <dom/domAny.h>
 #include <dom/domCOLLADA.h>
 #include <dom/domProfile_COMMON.h>
 #include <dom/domConstants.h>

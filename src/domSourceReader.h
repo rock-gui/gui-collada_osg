@@ -17,7 +17,9 @@
 #include <osg/Array>
 #include <osg/Notify>
 
-class domSource;
+namespace ColladaDOM141 {
+    class domSource;
+}
 
 namespace osgDAE {
 
@@ -34,7 +36,7 @@ public:
 public:
 
     domSourceReader();
-    explicit domSourceReader( domSource *src );
+    explicit domSourceReader( ColladaDOM141::domSource *src );
 
     ArrayType getArrayType(bool enableDoublePrecision) const { if (srcInit) const_cast<domSourceReader*>(this)->convert(enableDoublePrecision); return m_array_type; };
 
@@ -68,7 +70,7 @@ protected:
     ArrayType m_array_type;
     int m_count;
 
-    domSource * srcInit;        ///< Source used before initialization by convert(), NULL otherwise
+    ColladaDOM141::domSource * srcInit;        ///< Source used before initialization by convert(), NULL otherwise
     //bool initialized;
     void convert(bool doublePrecision);
 

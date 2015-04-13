@@ -14,7 +14,7 @@
 #include "daeWriter.h"
 #include "ReaderWriterDAE.h"
 
-#include <dae/domAny.h>
+#include <dom/domAny.h>
 #include <dom/domCOLLADA.h>
 #include <dom/domConstants.h>
 #include <dom/domProfile_COMMON.h>

@@ -17,7 +17,7 @@
 
 #include <dom/domNode.h>
 #include <dom/domConstants.h>
-#include <dae/domAny.h>
+#include <dom/domAny.h>
 
 #include <osgAnimation/Bone>
 #include <osgSim/DOFTransform>

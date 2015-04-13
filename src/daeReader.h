@@ -35,25 +35,28 @@
 #include <osgAnimation/Bone>
 #include <osgAnimation/Skeleton>
 
-class domBind_material;
-class domCamera;
-//class domCommon_color_or_texture_type;
-class domCommon_float_or_param_type;
-class domGeometry;
-class domInstance_controller;
-class domInstance_geometry;
-class domInstanceWithExtra;
-class domLight;
-class domLookat;
-class domMatrix;
-class domNode;
-class domP;
-class domProfile_COMMON;
-class domScale;
-class domSkew;
-class domTranslate;
-class domRotate;
-class domVisual_scene;
+namespace ColladaDOM141
+{
+    class domBind_material;
+    class domCamera;
+    //class domCommon_color_or_texture_type;
+    class domCommon_float_or_param_type;
+    class domGeometry;
+    class domInstance_controller;
+    class domInstance_geometry;
+    class domInstanceWithExtra;
+    class domLight;
+    class domLookat;
+    class domMatrix;
+    class domNode;
+    class domP;
+    class domProfile_COMMON;
+    class domScale;
+    class domSkew;
+    class domTranslate;
+    class domRotate;
+    class domVisual_scene;
+}
 
 namespace osgDAE
 {
